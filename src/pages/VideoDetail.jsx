@@ -5,7 +5,7 @@ import RelatedVideos from "../components/RelatedVideo"
 
 export default function VideoDetail() {
 	const { state : { video } } = useLocation();
-	console.log(video)
+	console.log(video);
 	const { title, channelId, channelTitle, description } = video.snippet;
 	return (
 		<section>
